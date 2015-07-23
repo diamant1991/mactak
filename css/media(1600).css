@@ -7,6 +7,7 @@
   }
   .center-content {
     width: 67%;
+    margin-left: 16%;
   }
   .right-sidebar {
     width: 17%;
@@ -502,7 +503,7 @@
     max-width: 100%;
     height: auto;
   }
-   .miniature{
+   .miniature-block{
       padding: 0.63vw 0.3vw;
    }
    .detail-desc{
@@ -530,4 +531,194 @@
    .documentation{
       font-size: 0.75vw;
    }
+   /********* order ***********/
+   .order-block1{
+      width: 62.15vw;
+      margin:0.63vw auto 3.79vw;
+   }
+   .order-block2{
+      width: 50.63vw;
+      margin: 0.63vw auto 1.89vw;
+   }
+   .order-step1,
+   .order-step2,
+   .order-step3,
+   .order-step1 img,
+   .order-step2 img,
+   .order-step3 img{
+      width: 20.69vw;
+      height: 10.88vw;
+   }
+   .step1,
+   .step2,
+   .step3,
+   .step1 img,
+   .step2 img,
+   .step3 img{
+      width: 16.2vw;
+      height: 8.54vw;
+   }
+   .basket-table{
+      width: 54.4vw;
+   }
+   .basket-item-title{
+      font-size: 1.5vw;
+   }
+   .basket-item-info{
+      font-size: 0.88vw;
+      padding: 0.63vw 1.26vw;
+   }
+   .basket-item-more{
+      padding: 0.25vw 0.63vw 0;
+      font-size: 0.88vw;
+   }
+   .basket-item-price{
+      padding: 0 0.63vw;
+      font-size: 1.26vw;
+   }
+   .basket-table thead td{
+      font-size: 1.26vw;
+      line-height: 2.84vw;
+   }
+   .basket-table thead td.basket-sum{
+      border-left-width: 0.31vw;
+      border-right-width: 0.31vw;
+   } 
+   .amount{
+      width: 4.43vw;
+      margin: 1.5vw auto;
+   }
+   .amount-title{
+      font-size: 0.75vw;
+   }
+   .amount input{
+      width: 2.15vw;
+      height: 2.15vw;
+      font-size: 1.13vw;
+      margin: 0 0.3vw;
+   }
+   .amount .amount-up,
+   .amount .amount-down{
+      width: 0.69vw;
+      height: 1.26vw;
+      margin-top: 0.37vw;
+      background-size: contain;
+   }
+   .basket-item-sum{
+      width: 6.3vw;
+      border-left-width: 0.31vw;
+      border-right-width: 0.31vw;
+      font-size: 1.26vw;
+   }
+   .basket-item-del{
+      width: 4.87vw;
+      height: 3.79vw;
+      padding-top: 2.53vw;
+      margin: 1.26vw auto;
+      font-size: 1.01vw;
+   }
+   .basket-item,
+   .basket-item-img{
+      padding-top: 6.3vw;
+   }
+   .basket-sum-border{
+      width: 9.74vw;
+      height: 2.46vw;
+      background-size: contain;
+      background-position: 6.96vw 0;
+   }
+   .basket-info{
+      width: 50.6vw;
+      margin: 1.26vw auto;
+   }
+   .personal-type{
+      margin-left: 0.63vw;
+      line-height: 1.5vw;
+      font-size: 1.26vw;
+   }
+   .basket-info-person{
+      width: 18.9vw;
+   }
+   .basket-info-sum{
+      width: 18.9vw;
+      font-size: 1.89vw;
+   }
+   .cont-button{
+      width: 18.3vw;
+      height: 4.74vw;
+      -webkit-border-radius: 0.63vw;
+         -moz-border-radius: 0.63vw;
+              border-radius: 0.63vw;
+      line-height: 4.74vw;
+      font-size: 1.89vw;
+   }
+   .cont-block{
+      margin: 0 4.43vw 1.89vw;
+   }
+   .order-area{
+      width: 60.7vw;
+      margin: 0 auto 3.16vw;
+      background-size: contain;
+      min-height: 30vw;
+   }
+   .input-block{
+      width: 27.2vw;
+      margin-top: 1.26vw;
+   }
+   .radio-block{
+      margin: 2.15vw;
+   }
+   .input-block h5{
+      margin-bottom: 0.31vw;
+      margin-left: 0.63vw;
+      font-size: 0.88vw;
+   }
+   .input-block input{
+      width: 27.2vw;
+      height: 2.5vw;
+      -webkit-border-radius: 0.44vw;
+         -moz-border-radius: 0.44vw;
+              border-radius: 0.44vw;
+      font-size: 1.13vw;
+   }
+   .input-block textarea{
+      width: 27.2vw;
+      height: 10.63vw;
+      -webkit-border-radius: 0.44vw;
+         -moz-border-radius: 0.44vw;
+              border-radius: 0.44vw;
+      font-size: 1.13vw;
+   }
+   .select-city{
+      padding: 0 1.26vw;
+      font-size: 1.01vw;
+   }
+   .uploadfile{
+      margin: 0.63vw 0 3.92vw;
+   }
+   .uploadfile span{
+      width: 0.63vw;
+      font-size: 0.88vw;
+   }
+    .uploadfile img{
+      width: 3.22vw;
+      height: 3.22vw;
+    }
+   .order-actions{
+      width: 25.3vw;
+   }
+   .order-back-link{
+      line-height: 3.92vw;
+      font-size: 1.5vw;
+   }
+   .order-cont-link{
+      width: 15.8vw;
+      height: 3.92vw;
+      -webkit-border-radius: 0.63vw;
+         -moz-border-radius: 0.63vw;
+              border-radius: 0.63vw;
+      line-height: 3.92vw;
+      font-size: 1.89vw;
+   }
 }
+

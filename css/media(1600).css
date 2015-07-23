@@ -170,6 +170,7 @@
     font-size: 1.26vw;
   }
   .slider-wrapper {
+    width: 100%;
     height: 21vw;
     padding: 1.26vw 0;
   }
@@ -239,6 +240,8 @@
     font-size: 0.75vw;
   }
   .novelty-wrapp {
+    width: 100%;
+    margin: auto;
     margin-top: 0.94vw;
   }
   .novelty-block {
@@ -621,6 +624,10 @@
    .basket-item-img{
       padding-top: 6.3vw;
    }
+    .basket-item-img img{
+      max-width: 100%;
+      width: auto;
+    }
    .basket-sum-border{
       width: 9.74vw;
       height: 2.46vw;

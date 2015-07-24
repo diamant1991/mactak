@@ -3,10 +3,12 @@ a {
 }
 body {
   font-family: Arial, sans-serif;
+  overflow-y: hidden;
 }
 .wrapper {
   width: 100%;
   margin: auto;
+  height: 100%;
 }
 .left-sidebar {
   position: fixed;
@@ -21,10 +23,13 @@ body {
   float: left;
   width: 67%;
   margin-left: 16%;
+  position: relative;
+  min-height: 100%;
 }
 .right-sidebar {
   float: left;
   width: 17%;
+  height: 100%;
   padding-top: 15px;
   padding-left: 5px;
   padding-right: 5px;
@@ -115,6 +120,10 @@ body {
   margin-bottom: 3%;
   text-align: right;
 }
+  .nav li:hover,
+  .nav li.active{
+    border-right-color: #ff0000;
+  }
 .nav li a {
   display: inline-block;
   padding-right: 15px;
@@ -444,10 +453,16 @@ body {
   margin-top: 15px;
   line-height: 15px;
 }
+.main-wrapp{
+  padding-bottom: 135px;
+}
 .footer {
   border-top: 3px solid #eb1c2a;
   background: #626262;
-  position: relative;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   padding-top: 20px;
   height: 125px;
 }

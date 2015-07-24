@@ -12,6 +12,7 @@
 	<meta name="description" content="">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/jquery.rollbar.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media(1600).css">
 	<link rel="stylesheet" href="css/media(1000).css">
@@ -46,7 +47,7 @@
 		</div>
 		<nav class="nav">
 			<ul>
-				<li><a href="#">о компании</a></li>
+				<li class="active"><a href="#">о компании</a></li>
 				<li><a href="#">новости</a></li>
 				<li><a href="#">акции и скидки</a></li>
 				<li><a href="#">сервис и ремонт</a></li>
@@ -73,6 +74,7 @@
 	</aside><!-- left sidebar -->
 
 	<section class="center-content">
+		<div class="main-wrapp">
 		<header class="header">
 			Оборудование для автосервиса, оборудование сто, автоинтсрумент
 		</header>
@@ -238,6 +240,7 @@
 				Обращайтесь! Компания «МАСТАК М» поможет оснастить Ваш автомобильный сервис самым современными и эффективными изделиями! Широкий выбор, демократичные цены, помощь и поддержка специалистов – все это доступно нашим клиентам. «МАСТАК М» - надежный поставщик оборудования для автосервисов, которые хотят работать и зарабатывать!
 			</p>
 		</div><!-- equipment -->
+		</div>
 
 	<footer class="footer">
 		<div class="foot-text">
@@ -252,6 +255,7 @@
 	</section><!-- center content-->
 
 	<aside class="right-sidebar height-side">
+		<div class="rollbar">
 		<div class="search">
 			<input type="text" placeholder="поиск...">
 			<input type="submit" value="" class="s-in">
@@ -436,10 +440,19 @@
 				</ul>
 			</div>
 		</div>
+		</div>
 	</aside>
 </div>
 
 
 <script src="js/jquery.js"></script>
+<script src="js/jquery.mousewheel.js"></script>
+<script src="js/jquery.rollbar.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+  		$('.center-content').rollbar({zIndex:80,autoHide: true});
+  		$('.rollbar').rollbar({zIndex:80});  
+  });
+</script>
 </body>
 </html>

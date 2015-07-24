@@ -12,6 +12,7 @@
 	<meta name="description" content="">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/jquery.rollbar.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media(1600).css">
 	<link rel="stylesheet" href="css/media(1000).css">
@@ -74,6 +75,7 @@
 	</aside><!-- left sidebar -->
 
 	<section class="center-content">
+		<div class="main-wrapp">
 		<header class="header">
 			<span class="red-o">М</span>онтажно-демонтадный инструмент
 		</header>
@@ -260,6 +262,7 @@
 				Обращайтесь! Компания «МАСТАК М» поможет оснастить Ваш автомобильный сервис самым современными и эффективными инструментом для монтажных-демонтажных работ ! Широкий выбор, доставка товара во все уголки России, лизинг и кредит,  демократичные цены, помощь и поддержка специалистов – все это доступно нашим клиентам. «МАСТАК М» - надежный поставщик оборудования для автосервисов, которые хотят работать и зарабатывать! 
 			</div>
 		</div>
+		<div class="main-wrapp">
 		<footer class="footer">
 			<div class="foot-text">
 				<p>Вся представленная на сайте информация, касающаяся цен, условий поставки и обслуживания оборудования носит информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 (2) Гражданского кодекса Российской Федерации.</p>
@@ -272,6 +275,7 @@
 	</section><!-- center content -->
 
 	<aside class="right-sidebar height-side">
+		<div class="rollbar">
 		<div class="search">
 			<input type="text" placeholder="поиск...">
 			<input type="submit" value="" class="s-in">
@@ -456,11 +460,20 @@
 				</ul>
 			</div>
 		</div>
+		</div>
 	</aside>
 </div>
 
 
 <script src="js/jquery.js"></script>
+<script src="js/jquery.mousewheel.js"></script>
+<script src="js/jquery.rollbar.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+  		$('.center-content').rollbar({zIndex:80,autoHide: true});
+  		$('.rollbar').rollbar({zIndex:80});  
+  });
+</script>
 </body>
 </html>
 

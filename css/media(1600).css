@@ -12,20 +12,20 @@
   .right-sidebar {
     width: 17%;
   }
-  .telefon {
+  /* .telefon {
     margin-top: 1.2vw;
-  }
+  } */
   .telefon .title {
     font-size: 0.88vw;
     margin-bottom: 0.3vw;
   }
-  .logo {
+  /*.logo {
     margin-left: -0.3vw;
-  }
-  .logo img {
+  }*/
+  /* .logo img {
     width: 10.8vw;
     height: 9.8vw;
-  }
+  } */
   .phone-icon {
     width: 3.1vw;
   }
@@ -48,13 +48,13 @@
     width: 0.94vw;
     height: 1.01vw;
   }
-  .answerform {
+  /* .answerform {
     margin: 1.2vw 0;
-  }
+  } */
   .sms-link {
-    width: 15.1vw;
+    /* width: 15.1vw;
     height: 2.84vw;
-    line-height: 2.84vw;
+    line-height: 2.84vw; */
     font-size: 1.13vw;
     -webkit-border-radius: 0.63vw;
     -moz-border-radius: 0.63vw;
@@ -64,15 +64,15 @@
     padding-right: 0.37vw;
   }
   .nav li {
-    height: 2.21vw;
+    /* height: 2.21vw; */
     border-right-width: 0.3vw;
-    margin-bottom: 0.63vw;
+    /* margin-bottom: 0.63vw; */
   }
   .nav li a {
     padding-right: 0.94vw;
     font-size: 0.88vw;
-    height: 2.21vw;
-    line-height: 2.21vw;
+   /* height: 2.21vw;
+   line-height: 2.21vw; */
   }
   .nav li .arends-link {
     line-height: 1.13vw;
@@ -81,9 +81,9 @@
     width: 15.1vw;
   }
   .basket .title {
-    height: 2.21vw;
+    /* height: 2.21vw; */
     font-size: 0.88vw;
-    line-height: 2.21vw;
+    /* line-height: 2.21vw; */
     padding-left: 0.3vw;
     padding-right: 1.13vw;
   }

@@ -35,7 +35,8 @@ body {
 .telefon {
   width: 245px;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 2%;
+  height: 8%;
 }
 .telefon .title {
   color: #626262;
@@ -44,12 +45,20 @@ body {
 }
 .logo {
   text-align: center;
-  margin-left: -5px;
+  height: 17%;
 }
+  .logo img{
+   width: 55%;
+   height: auto;
+  }
 .phone-icon {
   float: left;
   width: 50px;
 }
+   .phone-icon img{
+      width: 45px;
+      height: 45px;
+   }
 .phone-text {
   float: left;
   width: 192px;
@@ -75,18 +84,19 @@ body {
   top: 4px;
 }
 .answerform {
-  margin: 20px 0px;
+  margin: 5% 0px;
+  height: 5%;
 }
 .sms-link {
   display: block;
   width: 96%;
   margin: auto;
-  height: 45px;
+  height: 100%;
   text-align: center;
   background: #4573b1;
   color: white;
   font-size: 18px;
-  line-height: 45px;
+  line-height: 2.2em;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -94,11 +104,15 @@ body {
 .nav {
   text-transform: uppercase;
   padding-right: 6px;
+  height: 40%;
+}
+.nav ul{
+   height: 100%;
 }
 .nav li {
-  height: 35px;
+  height: 10%;
   border-right: 5px solid #4573b1;
-  margin-bottom: 10px;
+  margin-bottom: 3%;
   text-align: right;
 }
 .nav li a {
@@ -107,8 +121,8 @@ body {
   font-weight: bold;
   font-size: 14px;
   color: #4573b1;
-  height: 35px;
-  line-height: 35px;
+  height: 100%;
+  line-height: 2.5em;
 }
 .nav li .arends-link {
   line-height: 18px;
@@ -116,6 +130,7 @@ body {
 .basket {
   width: 240px;
   margin: auto;
+  basket: 21%;
 }
 .basket .title {
   width: 100%;

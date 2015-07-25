@@ -251,10 +251,66 @@ body {
 .cat-list {
   border: 1px solid #ededed;
 }
-.cat-list li {
-  height: 30px;
+.cat-list > ul > li {
+  min-height: 30px;
   border-bottom: 1px solid #ededed;
 }
+.cat-list > ul > li > a{
+  display: block;
+}
+  .cat-list > ul ul{
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  .cat-list > ul ul a{
+     color: #626262;
+  }
+  .cat-list > ul ul a:hover,
+  .cat-list > ul ul a.active{
+    color: #eb1c2a;
+  }
+  .cat-list > ul > li:hover  > a,
+  .cat-list > ul > li.active > a{
+    background: #4573b1;
+  }
+   .cat-list > ul>li.active .text,
+   .cat-list > ul>li:hover .text{
+    color: #fff;
+   }
+  .cat-list > ul > li.active{
+    padding-bottom: 20px;
+  }
+  .cat-list > ul .second-level > li > a.active:before{
+    content: "";
+    border-right: 1px solid red;
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -7px;
+  }
+  .cat-list > ul .third-level > li > a.active:before{
+    content: "";
+    border-right: 1px solid red;
+    height: 58px;
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: -7px;
+  }
+  
+.second-level{
+  margin-left: 30px;
+  padding-top: 20px;
+  position: relative;
+}
+.third-level,
+.fourth-level{
+  margin-left: 10px;
+  padding-top: 10px;
+  position: relative;
+}
+
 .cat-list .cat-icon {
   display: table-cell;
   vertical-align: middle;

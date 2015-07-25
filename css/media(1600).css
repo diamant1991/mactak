@@ -727,5 +727,62 @@
       line-height: 3.92vw;
       font-size: 1.89vw;
    }
+
+   .top-text{
+      width: 51.89vw;
+      margin: 1.26vw auto;
+   }
+   .group{
+      width: 51.89vw;
+   }
+   .group-container{
+      padding-top: 1.26vw;
+      margin-left: -1.58vw;
+   }
+   .group-block{
+      width: 11.7vw;
+      height: 16.13vw;
+      margin-left: 1.58vw;
+      margin-bottom: 2.21vw;
+   }
+   .group-img{
+      height: 13.6vw;
+   }
+   .group-img img{
+      max-width: 100%;
+      height: auto;
+   }
+   .group-cell{
+      height: 2.53vw;
+      width: 11.7vw;
+   }
+   .group-link{
+      width: 11.7vw;
+      height: 2.52vw;
+      font-size: 0.75vw;
+   }
+   .special{
+      width: 54.43vw;
+      font-size: 0.75vw;
+      padding-top: 1.26vw;
+   }
+   .special h5:after{
+      width: 4.1vw;
+      margin-top: 0.31vw;
+      margin-bottom: 0.63vw;
+   }
+   .special p{
+      margin-bottom: 1.26vw;
+   }
+   .special ul{
+      margin-left: 1.58vw;
+      margin-bottom: 1.26vw;
+   }
+   .special ul li:before{
+      width: 0.44vw;
+      height: 0.44vw;
+      margin-right: 0.31vw;
+      margin-top: 0.31vw;
+   }
 }
 

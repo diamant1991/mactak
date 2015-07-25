@@ -752,4 +752,59 @@
       line-height: 39px;
       font-size: 19px;
    }
+	.top-text{
+      width: 519px;
+      margin: 12.5px auto;
+   }
+   .group{
+      width: 519px;
+   }
+   .group-container{
+      padding-top: 12.5px;
+      margin-left: -16px;
+   }
+   .group-block{
+      width: 117px;
+      height: 161px;
+      margin-left: 16px;
+      margin-bottom: 22px;
+   }
+   .group-img{
+      height: 136px;
+   }
+   .group-cell{
+      height: 25px;
+      width: 117px;
+   }
+   .group-link{
+      width: 117px;
+      height: 25px;
+      font-size: 7.5px;
+   }
+   .special{
+      width: 544px;
+      font-size: 7.5px;
+      padding-top: 12.5px;
+   }
+   .special h5:after{
+      width: 41px;
+      margin-top: 3px;
+      margin-bottom: 6px;
+   }
+   .special p{
+      margin-bottom: 12.5px;
+   }
+   .special ul{
+      margin-left: 16px;
+      margin-bottom: 12.5px;
+   }
+   .special ul li:before{
+      width: 4.5px;
+      height: 4.5px;
+      margin-right: 3px;
+      margin-top: 3px;
+   }
+	.top-text{
+		font-size: 9px;
+	}
 }

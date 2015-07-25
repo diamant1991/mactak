@@ -158,9 +158,27 @@
 				background-position: 0 4px;
 			}
 
-		.cat-list li{
-			height: 19px;
+		.cat-list > ul > li{
+			min-height: 19px;
 		}
+		
+		.cat-list > ul ul{
+	    font-size: 7.5px;
+	  }
+	  .cat-list > ul > li.active{
+	    padding-bottom: 12.5px;
+	  }
+	  .cat-list > ul .second-level > li > a.active:before{
+	    height: 35.5px;
+	    left: -4.5px;
+	  }
+  
+	  .cat-list > ul .third-level > li > a.active:before{
+	    height: 42px;
+	    top: 7.5px;
+	    left: -4.5px;
+	  }
+
 		.cat-list .cat-icon{
 			width: 28.5px;
 			height: 19px;

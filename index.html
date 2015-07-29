@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/jquery.rollbar.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media(1600).css">
 	<link rel="stylesheet" href="css/media(1000).css">
@@ -79,15 +80,17 @@
 			Оборудование для автосервиса, оборудование сто, автоинтсрумент
 		</header>
 		<div class="slider-wrapper">
-			<a href="#" class="prev-slide">
-				<img src="images/prev-next.png" height="253" width="25" alt="">
-			</a>
-			<a href="#" class="next-slide">
-				<img src="images/next-slide.png" height="253" width="25" alt="">
-			</a>
-			<div class="slide-img">
-				<img src="images/slide.jpg" height="293" width="866" alt="">
-			</div>
+			<ul class="bx-slider">
+				<li>
+					<img src="images/slide.jpg" height="293" width="866" alt="">
+				</li>
+				<li>
+					<img src="images/slide.jpg" height="293" width="866" alt="">
+				</li>
+				<li>
+					<img src="images/slide.jpg" height="293" width="866" alt="">
+				</li>
+			</ul>
 		</div><!-- slider wrapper -->
 
 		<div class="last-news">
@@ -446,9 +449,14 @@
 
 
 <script src="js/jquery.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
 <script src="js/jquery.mousewheel.js"></script>
 <script src="js/jquery.rollbar.min.js"></script>
-<script type="text/javascript">
+<script>
+	$('.bx-slider').bxSlider({
+	  pager: false
+
+	});
   $(document).ready(function(){
   		$('.center-content').rollbar({zIndex:80,autoHide: true});
   		$('.rollbar').rollbar({zIndex:80});  

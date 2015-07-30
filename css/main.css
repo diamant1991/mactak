@@ -255,6 +255,10 @@ body {
   min-height: 30px;
   border-bottom: 1px solid #ededed;
 }
+.cat-list a{
+  display: block;
+  position: relative;
+}
 .cat-list > ul > li > a{
   display: block;
 }
@@ -280,29 +284,40 @@ body {
   .cat-list > ul > li.active{
     padding-bottom: 20px;
   }
-  .cat-list > ul .second-level > li > a.active:before{
-    content: "";
-    border-right: 1px solid red;
-    height: 50px;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: -7px;
-  }
-  .cat-list > ul .third-level > li > a.active:before{
-    content: "";
-    border-right: 1px solid red;
-    height: 58px;
-    display: block;
-    position: absolute;
-    top: 12px;
-    left: -7px;
-  }
+
   
 .second-level{
-  margin-left: 30px;
-  padding-top: 20px;
+  margin-left: 25px;
   position: relative;
+}
+  .second-level > li a{
+    padding-left: 10px;
+  }
+  .second-level > li:first-child a{
+    padding-top: 20px;
+  }
+.cat-list > ul > li.active > a:before{
+  content: '';
+  display: block;
+  width: 3px;
+  height: 3px;
+  position: absolute;
+  left: 24px;
+  bottom: 0;
+  background: url(../images/before.png)no-repeat;
+}
+.border{
+  background: url(../images/border.png)repeat-y;
+}
+.cat-list a.active:before{
+  content: '';
+  display: block;
+  width: 3px;
+  height: 3px;
+  position: absolute;
+  left: -1px;
+  bottom: 0;
+  background: url(../images/before.png)no-repeat;
 }
 .third-level,
 .fourth-level{

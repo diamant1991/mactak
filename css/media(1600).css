@@ -156,18 +156,8 @@
   .cat-list > ul > li.active{
     padding-bottom: 1.26vw;
   }
-  .cat-list > ul .second-level > li > a.active:before{
-    height: 3.16vw;
-    left: -0.44vw;
-  }
+
   
-  .cat-list > ul .third-level > li > a.active:before{
-    height: 3.67vw;
-    top: 0.75vw;
-    left: -0.44vw;
-  }
-
-
 
   .cat-list .cat-icon {
     width: 2.84vw;

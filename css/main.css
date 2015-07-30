@@ -714,20 +714,45 @@ body {
   position: relative;
 }
 .filter td {
-  padding: 20px 0px;
   width: 185px;
   vertical-align: middle;
 }
+  .filter tr:last-child td{
+    padding-bottom: 30px;
+  }
 .filter .clas {
   font-size: 18px;
   font-weight: bold;
   color: #626262;
+  display: inline-block;
+  padding-top: 16px;
 }
 .filter .radio {
   color: #626262;
   font-size: 14px;
+  padding-right: 5px;
   text-transform: uppercase;
 }
+
+.radio input[type=checkbox] {
+  position: absolute;
+  left: -10000px;
+}
+.radio {
+  background: url(../images/checkbox.png)no-repeat 3px 19px;
+  padding-left: 42px;
+  padding-top: 28px;
+  height: 50px;
+  cursor: pointer;
+  position: relative;
+}
+.radio.active {
+  background: url(../images/checkbox-active.png)no-repeat 0 0;
+}
+
+
+
+
 .apply-filter {
   width: 100px;
   height: 35px;

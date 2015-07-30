@@ -483,14 +483,13 @@
 		padding-left: 50.5px;
 	}
 		.filter td{
-			padding: 12.5px 0;
 			width: 117px;
 		}
 		.filter .clas{
 			font-size: 11.5px;
 		}
 		.filter .radio{
-			font-size: 9px;
+			font-size: 10px;
 		}
 	.apply-filter{
 		width: 63px;

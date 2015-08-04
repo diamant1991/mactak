@@ -853,4 +853,86 @@
 	.top-text{
 		font-size: 9px;
 	}
+	.delivery .radio-btn{
+   font-size: 11px;
+   margin-bottom: 16px;
+   padding-top: 3px;
 }
+.dpd-img{
+   margin-left: 21px;
+   top: 5px;
+   width: 60px;
+   height: 30px;
+}
+.logo-post{
+   margin-left: 21px;
+   width: 64px;
+   height: 31px;
+}
+
+.second-radio-btn{
+   width: 126.5px;
+}
+.second-radio-btn a{
+   font-size: 11px;
+}
+
+.radio-img{
+   height: 57px;
+}
+
+.radio-img-cell{
+   height: 57px;
+}
+
+.payment-options{
+   margin-top: 31.5px;
+   margin-bottom: 19px;
+}
+.pay-desc{
+   margin-top: 19px;
+}
+.pay-desc p{
+   font-size: 9px;
+}
+.get-order-link{
+   font-size: 12.5px;
+}
+.second-radioblock{
+   padding-left: 31.5px;
+   padding-left: 3px;
+} 
+
+.textarea-wrapper{
+   padding-left: 31.5px;
+}
+.textarea-wrapper .title{
+   font-size: 9px;
+   margin-bottom: 3px;
+}
+
+.textarea-wrapper  .info-text{
+   font-size: 7.5px;
+   margin-top: 26.5px;
+}
+.textarea-wrapper input[type="text"]{
+   height: 19px;
+   width: 234px;
+}
+.textarea-wrapper textarea{
+   height: 63px;
+   width: 234px;
+}
+.textarea-wrapper .left-block{
+   float: left;
+   width: 234px;
+}
+.textarea-wrapper .right-block{
+   float: left;
+   margin-left: 35px;
+   width: 234px;
+}
+}
+
+
+

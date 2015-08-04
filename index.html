@@ -79,6 +79,7 @@
 		<header class="header">
 			Оборудование для автосервиса, оборудование сто, автоинтсрумент
 		</header>
+		<button class="button">клик</button>
 		<div class="slider-wrapper">
 			<ul class="bx-slider">
 				<li>
@@ -453,14 +454,20 @@
 <script src="js/jquery.mousewheel.js"></script>
 <script src="js/jquery.rollbar.min.js"></script>
 <script>
+
+
 	$('.bx-slider').bxSlider({
 	  pager: false
 
 	});
   $(document).ready(function(){
   		$('.center-content').rollbar({zIndex:80,autoHide: true});
-  		$('.rollbar').rollbar({zIndex:80});  
+  		$('.rollbar').rollbar({zIndex:80});
+ 
   });
+
+
+
 </script>
 </body>
 </html>

@@ -342,15 +342,13 @@ body {
     margin: auto;
     width: 30px;
     height: 20px;
+    background-repeat: no-repeat;
   }
   .cat-list > ul > li:hover > a .cat-icon span, 
   .cat-list > ul > li.active > a a .cat-icon span{
     background-position: 100%;
   }
 
-  .cat-1{
-    background: url(../images/icons/1.png)no-repeat;
-  }
   .cat-2{
     background: url(../images/icons/2.png)no-repeat;
   }

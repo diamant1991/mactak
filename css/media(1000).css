@@ -932,6 +932,9 @@
    margin-left: 35px;
    width: 234px;
 }
+ .basket-active table{
+      font-size: 9px;
+   }
 }
 
 

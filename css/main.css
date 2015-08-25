@@ -188,12 +188,17 @@ body {
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
   border-radius: 12px;
-  padding-top: 3px;
-  line-height: 13px;
+  outline: 0;
+  border:0;
+  white-space: pre-wrap;
   position: absolute;
   right: 0;
   bottom: -14px;
 }
+   .get-order.active{
+      background: #31EA29;
+      cursor: pointer;
+   }
 .text-basket {
   width: 119px;
   height: 102px;
@@ -1541,3 +1546,35 @@ body {
 .textarea-block{
    display: none;
 }
+
+
+.basket-active{
+  width: 100% !important;;
+  background-position: 50%;
+}
+
+  .basket-active table{
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .basket-active table .name{
+      color: #5781b9;
+      text-decoration: underline;
+  }
+   .basket-active table .name:hover{
+      text-decoration: none;
+   }
+  .basket-active table .price-total{
+      color: #db0703; 
+  }
+  .basket-active table td:first-child{
+      width: 65%;
+      text-align: left;
+      padding-left: 15px;
+  }
+  .basket-active table td:last-child{
+      width: 35%;
+      text-align: right;
+  }
+       

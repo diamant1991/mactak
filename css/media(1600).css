@@ -913,5 +913,10 @@
    margin-left: 3.48vw;
    width: 23.4vw;
 }
+
+   .basket-active table{
+      font-size: 0.88vw;
+   }
+
 }
 

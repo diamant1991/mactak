@@ -801,6 +801,7 @@ body {
 .filter {
   border-bottom: 1px solid #4573b1;
   padding-left: 80px;
+  padding-bottom: 25px;
   position: relative;
 }
 .filter td {
@@ -1578,3 +1579,21 @@ body {
       text-align: right;
   }
        
+
+.filter-container .name{
+  float: left;
+  width: 180px;
+  font-family: Arial,sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #626262;
+  padding-top: 25px;
+}
+.properties{
+  float: left;
+  width: 750px;
+}
+.filter .radio{
+  float: left;
+  width: 25%;
+}

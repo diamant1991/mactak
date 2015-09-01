@@ -169,6 +169,14 @@
 	    padding-bottom: 12.5px;
 	  }
 
+	  .properties{
+		   width: 474px;
+		 }
+		  .filter-container .name{
+		    width: 114px;
+		    font-size: 11px;
+		  }
+
 		.cat-list .cat-icon{
 			width: 28.5px;
 			height: 19px;

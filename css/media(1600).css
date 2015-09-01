@@ -459,6 +459,17 @@
   .filter td {
     width: 11.7vw;
   }
+  .filter-container .name{
+    width: 11.4vw;
+    font-size: 1.13vw;
+  }
+  .filter .radio{
+    width: 33.3%;
+  }
+  .properties{
+    width: 47.4vw;
+  }
+
   .filter .clas {
     font-size: 1.13vw;
   }

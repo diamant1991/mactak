@@ -994,10 +994,12 @@ body {
 .detail .after-info {
   border-bottom: 1px solid #4573b1;
 }
+.top-title{
+  border-bottom: 1px solid #4573b1;
+}
+
 .detail .cod,
 .detail .price {
-  border-bottom: 1px solid #4573b1;
-  height: 43px;
 }
 .detail .col-33 {
   float: left;

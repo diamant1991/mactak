@@ -939,6 +939,30 @@
  .basket-active table{
       font-size: 9px;
    }
+
+
+.novelty .bx-wrapper{
+  width: 617px;
+}
+.novelty .bx-viewport{
+  height: 120px !important;
+}
+.novelty  .bx-wrapper .bx-prev{
+   left: -19px;
+}
+.novelty  .bx-wrapper .bx-next{
+   right: -19px;
+}
+.novelty-block{
+   width: 202px !important;
+   margin-left: 0;
+   margin-right: 6px;
+}
+.novelty .h3{
+  padding-left: 50px;
+}
+
+
 }
 
 

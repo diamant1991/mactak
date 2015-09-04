@@ -926,5 +926,26 @@
       font-size: 0.88vw;
    }
 
+.novelty .bx-wrapper{
+  width: 61.7vw;
+}
+.novelty .bx-viewport{
+  height: 12.02vw !important;
+}
+.novelty  .bx-wrapper .bx-prev{
+   left: -1.89vw;
+}
+.novelty  .bx-wrapper .bx-next{
+   right: -1.89vw;
+}
+.novelty-block{
+   width: 20.25vw !important;
+   margin-left: 0;
+   margin-right: 0.63vw;
+}
+.novelty .h3{
+  padding-left: 5.06vw;
+}
+
 }
 

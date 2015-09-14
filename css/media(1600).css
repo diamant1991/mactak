@@ -947,5 +947,33 @@
   padding-left: 5.06vw;
 }
 
+
+.order-actions-fiz{
+  margin-top: 8.22vw;
+}
+
+
+.complete-text{
+   padding-top: 3.79vw;
+}
+   .complete-text header{
+      font-size: 1.5vw;
+   }
+
+.small-complete{
+   font-size: 0.88vw;
+   margin-top: 0.63vw;
+}
+
+.back-catalog a{
+   height: 4.74vw;
+   width: 14.87vw;
+   font-size: 1.13vw;
+   line-height: 4.74vw;
+}
+.back-catalog{
+   margin-top: 1.89vw;
+}
+
 }
 

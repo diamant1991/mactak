@@ -1635,3 +1635,154 @@ body {
 .novelty .h3{
   padding-left: 80px;
 }
+.checkbox input[type=checkbox] {
+   position: absolute;
+   left: -10000px;
+}
+.check {
+   background: url(../images/check.png)no-repeat 1px 6px;
+   padding-left: 25px;
+   cursor: pointer;
+   position: relative;
+   padding-top: 9px;
+}
+.check.active {
+   background: url(../images/check-a.png)no-repeat 1px 2px;
+}
+.order-actions-fiz{
+   margin-top: 130px;
+}
+.check{
+   color: #626262;
+   font-size: 14px;
+}
+   .check a{
+      text-decoration: underline;
+      color: #4573b1;
+   }
+
+.order-area-fiz{
+   background: url('../images/fiz.png') right no-repeat;
+   min-height: 500px;
+}
+.complete-text{
+   text-align: center;
+   padding-top: 60px;
+}
+   .complete-text header{
+      font-weight: bold;
+      font-size: 24px;
+      color: #4573b1;
+   }
+.number-order{
+   color: #eb1c2a;
+   text-decoration: underline;
+}
+   .number-order:hover{
+      text-decoration: none;
+   }
+.small-complete{
+   color: #626262;
+   font-size: 14px;
+   margin-top: 10px;
+}
+.back-catalog a{
+   display: block;
+   margin: auto;
+   height: 75px;
+   width: 235px;
+   text-align: center;
+   background: #4573b1;
+   color: #fffefe;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 75px;
+   text-transform: uppercase;
+   -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+           border-radius: 10px;
+}
+.back-catalog{
+   margin-top: 30px;
+}
+.adress-area{
+   font-weight: bold;
+   font-size: 14px;
+   color: #4573b1;
+}
+   .adress-area a{
+      color: #626262;
+      font-weight: normal;
+      text-decoration: underline;
+   }
+.pay-card{
+   display: inline-block;
+}
+.pay-desc-other .pay-card:first-child{
+   margin-right: 75px;
+}
+.date-time{
+   float: left;
+   width: 60%;
+}
+.select{
+   color: #626262;
+   font-size: 14px;
+   display: inline-block;
+}
+.slct {
+   display: block;
+   border: 1px solid #4674b2;
+   background: #fff url(../images/arrow-date.png)no-repeat 100%;
+   padding-left: 5px;
+   width: 150px;
+   height: 20px;
+   color: #626262;
+   overflow: hidden;
+   white-space:nowrap;
+   text-overflow: ellipsis;
+   -o-text-overflow: ellipsis;   
+   text-align: left;
+}
+.drop {
+   margin: 0;
+   padding: 0;
+   width: 150px;
+   border: 1px solid #4674b2;
+   border-top: none;
+   display: none;
+   position: absolute;
+   background: #fff;
+}
+.drop li {
+   list-style: none;
+   border-top: 1px dotted #e8e8e8;
+   cursor: pointer;
+   text-align: left;
+   display: block;
+   padding: 4px 5px 4px 5px;
+}
+.drop li:hover {
+   background-color: #e8e8e8;
+}
+.content-date .left-block,
+.content-date .right-block{
+   float: left;
+   width: 50%;
+}
+.content-date .right-block{
+   text-align: center;
+}
+.choise-del{
+   display: inline-block;
+   text-align: left;
+   font-size: 12px;
+   color: #626262;
+   margin-top: 30px;
+}
+   .choise-del .title{
+      color: #626262;
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 5px;
+   }

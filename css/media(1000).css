@@ -961,6 +961,31 @@
 .novelty .h3{
   padding-left: 50px;
 }
+.order-actions-fiz{
+  margin-top: 80px;
+}
+.complete-text{
+   padding-top: 38px;
+}
+   .complete-text header{
+      font-size: 15px;
+   }
+
+.small-complete{
+   font-size: 9px;
+   margin-top: 6px;
+}
+
+.back-catalog a{
+   height: 47.5px;
+   width: 148px;
+   font-size: 11px;
+   line-height: 47.5px;
+}
+.back-catalog{
+   margin-top: 19px;
+}
+
 
 
 }

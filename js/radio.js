@@ -17,4 +17,13 @@ $('.second-radioblock').find('.second-radio-btn').each(function(){
 	});
 });
 
+$('.pay-desc-radio').find('.pay-card-radio').each(function(){
+	
+	$(this).click(function(){
+		var valueRadio = $(this).find('p').html();
+		$(this).parent().find('.pay-card-radio').removeClass('active');
+		$(this).addClass('active');
+		$(this).parent().find('input').val(valueRadio);
+	});
+});
 

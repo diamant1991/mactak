@@ -974,6 +974,35 @@
 .back-catalog{
    margin-top: 1.89vw;
 }
+.adress-text textarea{
+  width: 18.9vw;
+  height: 6.6vw;
+}
+.finish-status{
+  width: 50.6vw;
+}
 
+.finish-status h4{
+  font-size: 1.13vw;
+  margin-bottom: 1.89vw;
+}
+.finish-contact li{
+  padding-left: 4.43vw;
+  font-size: 1.13vw;
+}
+.finish-contact,
+.finish-del{
+   margin-bottom: 1.89vw;
+}
+.finish-del p{
+  font-size: 1.13vw;
+  padding-left: 4.43vw;
+}
+.pay-card{
+  margin-left: 4.43vw;
+}
+.pay-card p{
+  font-size: 0.88vw;
+}
 }
 

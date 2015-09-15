@@ -1786,3 +1786,86 @@ body {
       font-weight: bold;
       margin-bottom: 5px;
    }
+.adress-text{
+   float: left;
+   width: 40%;
+}
+.adress-text textarea{
+   width: 300px;
+   height: 105px;
+   resize:none;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   background-color: #fff;
+   border: 1px solid #5781b9;
+   outline: 0;
+   padding-left: 10px;
+   padding-top: 5px;
+   font-size: 14px;
+}
+   .adress-text p{
+      color: #626262;
+      font-size: 14px;
+      margin-bottom: 5px;
+   }
+      .adress-text p b{
+         font-weight: bold;
+      }
+.content-date{
+   margin-top: 15px;
+}
+.pay-card-radio{
+   cursor: pointer;
+   padding-bottom: 30px;
+   background:url(../images/radio-btn.png)no-repeat 50% 99%;
+}
+   .pay-card-radio.active{
+      background: url(../images/radio-btn-a.png)no-repeat 50% 99%;
+   }
+.date-time header img{
+   max-width: 100%;
+   height: auto;
+}
+.finish-status{
+   width: 800px;
+   margin: auto;
+}
+   .finish-status h4{
+      color: #4573b1;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 30px;
+   }
+.finish-contact li{
+   color: #626262;
+   font-size: 18px;
+   line-height: 1.2;
+   margin-bottom: 3px;
+   padding-left: 70px;
+}
+   .finish-contact li b{
+      font-weight: bold;
+   }
+.finish-contact,
+.finish-del{
+   margin-bottom: 30px;
+}
+
+.finish-del p{
+   color: #626262;
+   font-size: 18px;
+   padding-left: 70px;
+}
+.finish-del p a{
+   color: #4573b1;
+   text-decoration: underline;
+}
+.pay-card p{
+   font-size: 14px;
+   margin-top: 5px;
+   color: #4573b1;
+   font-weight: bold;
+}
+.pay-card{
+   margin-left: 70px;
+}

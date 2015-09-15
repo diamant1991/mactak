@@ -986,8 +986,42 @@
    margin-top: 19px;
 }
 
+.adress-text textarea{
+  width: 189px;
+  height: 66px;
+}
+.adress-text p{
+	font-size: 12px;
+}
+.adress-text{
+	padding-left: 20px;
+}
+.finish-status{
+  width: 506px;
+}
 
-
+.finish-status h4{
+  font-size: 11px;
+  margin-bottom: 19px;
+}
+.finish-contact li{
+  padding-left: 44px;
+  font-size: 11px;
+}
+.finish-contact,
+.finish-del{
+   margin-bottom: 19px;
+}
+.finish-del p{
+  font-size: 11px;
+  padding-left: 44px;
+}
+.pay-card{
+  margin-left: 44px;
+}
+.pay-card p{
+  font-size: 9px;
+}
 }
 
 

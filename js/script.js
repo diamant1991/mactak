@@ -9,4 +9,7 @@ $(document).ready(function () {
         $blocks.height(maxH); 
     }
     $('.height-side').equivalent();
+
+
+    
 });

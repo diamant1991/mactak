@@ -192,7 +192,7 @@
 								<div class="right-block">
 									<div class="price"><b>1350</b> руб.</div>
 									<div class="add-basket">
-										<a href="#">
+										<a>
 											<img src="images/add-basket.png" height="43" width="133" alt="">
 										</a>
 									</div>
@@ -492,6 +492,48 @@
 </div>
 
 
+<div class="form_mask"></div>
+<div class="modal" id="first_modal">
+	<a class="closed"><img src="images/closed.png" height="18" width="18" alt=""></a>
+	<div class="offers">
+		<table class="serchresults_item_table responsive">
+			<thead>
+				<tr>
+					<td>Артикул</td>																													<td>Размер</td>																													<td>Длина, мм</td>																												<td>Вес, г</td>																													<td>Цена</td>								
+					<td>Купить</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>2604</td>
+					<td>29 мм</td>																														<td>200</td>																														<td>300</td>
+					<td>650 руб.</td>
+					<td><a href="#">Buy</a></td>
+				</tr>
+				<tr>
+					<td>2604</td>
+					<td>29 мм</td>																														<td>200</td>																														<td>300</td>
+					<td>650 руб.</td>
+					<td><a href="#">Buy</a></td>
+				</tr>
+				<tr>
+					<td>2604</td>
+					<td>29 мм</td>																														<td>200</td>																														<td>300</td>
+					<td>650 руб.</td>
+					<td><a href="#">Buy</a></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+
+
+
+
+
+
+
 <script src="js/jquery1.7.1.js"></script>
 <script>
 $('.filter').find('.radio').click(function(){
@@ -511,6 +553,30 @@ $('.filter').find('.radio').click(function(){
   		$('.center-content').rollbar({zIndex:80,autoHide: true});
   		$('.rollbar').rollbar({zIndex:80});  
   });
+</script>
+
+<script>
+	$( document ).ready(function() {
+
+	$('.add-basket a').click(function(){
+    	$('.form_mask').addClass('visible');
+    	$('#first_modal').addClass('visible');
+    })
+
+
+    $('.form_mask,.closed').click(function(){
+  	 $('.modal,.form_mask').removeClass('visible');
+  })
+
+	$(document).keyup(function(d) {
+	    if (d.keyCode == 27) {
+	        $('.form_mask').removeClass('visible');
+	        $('.modal').removeClass('visible');
+	    }
+	});
+
+
+});
 </script>
 </body>
 </html>

@@ -1941,5 +1941,10 @@ body {
   cursor: pointer;
 }
 .offers{
-  margin-top: 40px;
+  margin-top: 35px;
+}
+.offers-block{
+  overflow: hidden;
+  height: 130px;
+  overflow-y: auto;
 }
